@@ -15,15 +15,16 @@
     "node": ">= 0.6.0"
   },
   "dependencies": {
-      "harbor": "0.2.x"
-    , "methods": "0.0.x"
-    , "pauli": "0.0.x"
-    , "superagent": "0.14.x"
+    "harbor": "0.2.x",
+    "methods": "0.0.x",
+    "pauli": "0.0.x",
+    "superagent": "~0.15.7",
+    "superagent-proxy": "~0.3.0"
   },
   "devDependencies": {
-      "mocha": "*"
-    , "chai": "*"
-    , "dox": "*"
+    "mocha": "*",
+    "chai": "*",
+    "dox": "*"
   },
   "optionalDependencies": {}
 }
